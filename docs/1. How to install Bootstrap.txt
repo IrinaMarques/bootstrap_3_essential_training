@@ -1,0 +1,43 @@
+====================
+1.1 CDN Instalation
+====================
+
+Create a link with the bootstrap CDN
+
+A script with the latest jQuery script
+
+A link to a css stylesheet
+
+A script with a src to a script js. 
+
+--> lesson_1.html
+
+======================
+1.2 Download Bootstrap
+======================
+
+Download and unzip.
+
+Move the files into the project folder.
+
+- Understanding the files -
+
+CSS Folder:
+- Three types of extensions: .css, .min, .map.
+- .css: regular css files with styles for the pages.
+- .min: minified versions of the bootstrap css.
+- .map: source maps for advanced users. If we are not using Less we don't need this.
+- theme: optional theme that was more gradients and styles. 
+
+JS Folder:
+- regular
+- minified 
+- nom is for advanced users that are using tools like Require and know js.
+
+Copy the css files to the css folder.
+
+Copy the fonts to the same level as the css folder.
+
+Copy the scripts files to the js folder.
+
+If we download bootstrap we need to download jQuery

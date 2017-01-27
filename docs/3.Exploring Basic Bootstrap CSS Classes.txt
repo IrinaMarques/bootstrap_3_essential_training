@@ -27,6 +27,8 @@ Makes the text stands out a litle bit from the rest of the text.
 3.2 Analyzing inline text styles
 =================================
 
+-->lesson3_2.html
+
 Bootstrap modify some of the styles that are already know in HTML.
 
 <mark> tag - gets a yellow background color.
@@ -48,3 +50,22 @@ Bootstrap modify some of the styles that are already know in HTML.
 <em> tag - emphasis text
 
 <i> tag - italic text, voice and technical terms or for icons.
+
+==========================================================
+3.3 Modifying alignment, transformation, and abbreviations
+==========================================================
+
+Classes:
+.text-left
+.text-right
+.text-center
+.text-justify
+.text-nowrap
+
+Transformations classes:
+.text-lowercase - Force a element to use a lowercase version of the text.
+.text-uppercase - Force a element to use a uppercase version of the text
+.text-capitalize
+
+Abbreviations:
+<abbr title='Capitan'>Capt. </abbr>

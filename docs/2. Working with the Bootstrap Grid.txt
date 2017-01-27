@@ -108,3 +108,20 @@ In bootstrap we can ask certain columns to move over by a certain number of colu
 Rows inside other rows.
 
 When we do that we will get another 12 column grid inside your existing section.
+
+================================================
+2.8. Customizing column order with push and pull
+================================================
+
+-->lesson_2_8.html
+
+In some design we may want to control the order of the columns so that they move from their original column positions.
+
+The push and pull classes. 
+
+For example if we have a col-xs-4 it can goes to 4 units. The 4 unit will be merge with the other column. 
+
+Push to the right.
+Pull to the left. 
+
+Push and pull columns allows to have the flexibility of completely rearranging the order of your columns depending on the break point. 

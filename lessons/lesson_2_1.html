@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<!-- Link to my styles after the Bootstrap so styles can override Bootstrap functionality -->
+	<link rel="stylesheet" href="styles.css">
+
+	<title>Bootstrap</title>
+
+</head>
+
+<body>
+
+	<!-- HEADER 1/2 IN A CONTAINER --> 
+	<!-- background goes the full width of the browser and the content fits within -->
+	<header class='bgimage'> <!-- Styles added to Css -->
+		<div class='container'>
+			<h1>HEADER WITH HALF CONTAINER</h1>
+		</div>
+	</header>
+
+	<!-- FUILD CONTAINER -->
+	<!-- adjusts to the size of the device -->
+	<div class='container-fluid'>
+		<h1>FLUID CONTAINER</h1>
+		<p><b>This is a fluid container with a class='container-fluid'. Always adjusts to the size of the device.</b><small>
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque ipsum accusamus earum illum reiciendis quae dicta quo asperiores voluptatum, tempore, consequatur, obcaecati! Mollitia minus ea itaque. Atque molestiae quod perspiciatis.</small></p>
+	</div>
+
+	<!-- FIXED-WIDTH CONTAINER --> 
+	<!-- adjusts to media query breakpoints -->
+	<!-- add 15px of paddint to each side --> 
+	<div class='container'>
+		<h1>FIXED-CONTAINER</h1>
+		<p><b>This is a fixed container with a class='container'. Show a specific size depending the size of the viewport. Adjusts to media query breakpoints - Extra Small, Small, Medium and Large.</b><small>
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque ipsum accusamus earum illum reiciendis quae dicta quo asperiores voluptatum, tempore, consequatur, obcaecati! Mollitia minus ea itaque. Atque molestiae quod perspiciatis.</small></p>
+	</div>
+
+
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<script src='script.js'></script>
+
+</body>
+</html>

@@ -43,6 +43,8 @@ Rows
 2.3 Creating Columns
 =====================
 
+--> lesson_2_3.html
+
 Columns:
 - 30px gutters: 15px on each side of the column
 - Use col-SIZE-SPAN: size (when it stacks); span (how many columns)
@@ -96,3 +98,13 @@ In bootstrap we can ask certain columns to move over by a certain number of colu
 
 .col-xs-offset-3
 .col-sm-offset-0
+
+====================
+2.7 Nesting columns
+====================
+
+-->lesson_2_7.html
+
+Rows inside other rows.
+
+When we do that we will get another 12 column grid inside your existing section.

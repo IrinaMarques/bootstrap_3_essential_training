@@ -22,3 +22,29 @@ Paragraphs also gets a bottom margin, 10 pixels by default.
 
 .lead style
 Makes the text stands out a litle bit from the rest of the text.
+
+=================================
+3.2 Analyzing inline text styles
+=================================
+
+Bootstrap modify some of the styles that are already know in HTML.
+
+<mark> tag - gets a yellow background color.
+
+<s> tag - indicates text that you're striking through. Shows with a line drawn through it.
+
+<del> tag - indicate text that has been deleted. Same as above with a outline over the text
+
+<ins> tag - text that as been insert. Shows an underline
+
+<u> tag - works the same way as the <ins> tag
+
+<small> tag - indicates a smaller text. It's smaller related to his parent. Get's a different color, font and weight.
+
+<strong> tag - text with more emphasis
+
+<b> tag - text in bold without insicating any additional importance
+
+<em> tag - emphasis text
+
+<i> tag - italic text, voice and technical terms or for icons.

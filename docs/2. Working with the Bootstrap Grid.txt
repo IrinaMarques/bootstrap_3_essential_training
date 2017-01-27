@@ -58,3 +58,15 @@ Column Metrics:
 The fluid container will allways have the columns that are defined and adjust to the width of the browser.
 
 We can inspect the breakpoint with the dev tools of google chorme.
+
+=================================
+2.4 Using multiple column classes
+=================================
+
+Ex:
+<div class='row'>
+<div='col-sm-6 col-md-4>
+</div>
+</div>
+
+Don't matter the order that we add this.

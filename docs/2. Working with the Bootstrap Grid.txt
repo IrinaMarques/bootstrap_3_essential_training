@@ -70,3 +70,20 @@ Ex:
 </div>
 
 Don't matter the order that we add this.
+
+=====================
+2.5 Resetting columns
+=====================
+
+The vissible and hidden classes.
+Bootstrap comes with a clearfix class used in Css to clear problems with floats.
+
+<div class='clearfix visible-block'></div>
+
+If it's visible we have to specify the type of element that it is.
+visible-(at breackpoint)-(regular block element/inline-block element/inline element)
+
+Id it's hidden we don't need to specify the type of element that it is.
+
+Ex. 
+Hide icons at certain breakpoints it's usefull in mobile devices. 

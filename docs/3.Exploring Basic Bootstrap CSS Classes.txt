@@ -1,0 +1,24 @@
+===================================
+3.1 Styling headings and body copy 
+===================================
+
+--> lesson_3_1.html
+
+Bootstrap uses Helvetica Neue if available and then tries to look for Helvetica, Arial and if nothing else it's a available  it uses the default CSS sans-serif font.
+
+<h1> to <h6>
+We can use for the same size and same font as the headline:
+<h1>Something</h1>
+<div class='h1'>Something</div1>
+<span class='h1'>Something</span> - In a middle of a phrase
+
+<small> tag
+We can also create secondary text inside a headline or inside body copy using the samll tag.
+We can also have a small class to use within the inline elements.
+
+Within body copy the global defont size is 14 pixels with a line height of about 1.428.
+
+Paragraphs also gets a bottom margin, 10 pixels by default. 
+
+.lead style
+Makes the text stands out a litle bit from the rest of the text.

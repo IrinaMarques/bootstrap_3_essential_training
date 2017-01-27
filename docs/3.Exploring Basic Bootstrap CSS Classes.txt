@@ -88,3 +88,19 @@ Classes:
 .list-unstyled : takes the styles, like the numbers
 .list-inline : put the list side by side and add a little bit of padding between each item
 .dl-horizontal : appear in a horizontal layout. Usually works fine for definition lists
+
+=================
+3.6 Styling code
+=================
+
+<code> tag - to show something as code
+
+<kbd> tag - <keyword> tag
+
+<var> tag
+
+<pre> tag - for preformated text
+.pre-scrollable - for long scripts provides scrollbar.
+
+<samp> tag
+

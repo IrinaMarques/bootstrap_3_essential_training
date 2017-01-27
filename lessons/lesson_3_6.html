@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<!-- Link to my styles after the Bootstrap so styles can override Bootstrap functionality -->
+	<link rel="stylesheet" href="styles.css">
+
+	<title>Bootstrap</title>
+
+</head>
+
+<body>
+	<h1>Code</h1>
+	<div class='container'>
+
+	<h2>Inline Code</h2>
+	<p>To emphasize text, you can use the <code>em</code> tag.</p>
+
+	<h2>Inline Code</h2>
+	<p>To emphasize text, you can use the <code>&lt;em&gt;</code> tag.</p>
+	
+	<h2>Control Keys</h2>
+	<p>To stop the execution of a process use <kbd>control-c</kbd> or <kbd>q</kbd></p>
+
+	<h2>Variables</h2>
+	<var>e</var> = <var>mc</var>&sup2;
+	
+	<h2>Short Script</h2>
+
+	<pre>//replace IMG inside carousels with a background image
+	$('featured .item img').each(function()) {
+	var imgSrc= $(this).attr('src');
+	$(this).parent().css({'background-image':
+	'url('+imgSrc+')''});
+	$(this).remove();
+	});
+	</pre>
+
+	<h4>Sample Output</h4>
+	<samp>&lt;div class=&quot;item active&quot; style=&quot;background-image: url(images/carousel-lifestyle.jpg);&quot;&gt;/div&gt;</samp>	
+	
+	</div>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<script src='script.js'></script>
+
+</body>
+</html>

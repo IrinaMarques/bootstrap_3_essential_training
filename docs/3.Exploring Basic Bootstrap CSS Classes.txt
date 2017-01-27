@@ -69,3 +69,13 @@ Transformations classes:
 
 Abbreviations:
 <abbr title='Capitan'>Capt. </abbr>
+
+======================
+3.4 Using blockquotes
+======================
+
+<blockquote> Style to a quote sayed by someone
+<footer> A name </footer>
+</blockquote>
+
+.blockquote-reverse

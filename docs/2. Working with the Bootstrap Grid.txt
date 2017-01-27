@@ -87,3 +87,12 @@ Id it's hidden we don't need to specify the type of element that it is.
 
 Ex. 
 Hide icons at certain breakpoints it's usefull in mobile devices. 
+
+=======================
+2.6 Offsetting columns
+=======================
+
+In bootstrap we can ask certain columns to move over by a certain number of column widths - That is offseting.
+
+.col-xs-offset-3
+.col-sm-offset-0

@@ -36,3 +36,25 @@ Rows
 - Place whitin container
 - Shoyld always include columns
 - Get rid of the container padding
+
+.row
+
+=====================
+2.3 Creating Columns
+=====================
+
+Columns:
+- 30px gutters: 15px on each side of the column
+- Use col-SIZE-SPAN: size (when it stacks); span (how many columns)
+- > 12 columns wrap
+
+Column Metrics:
+-xs
+-sm
+-md
+-lg
+--> img/column_metrics.png
+
+The fluid container will allways have the columns that are defined and adjust to the width of the browser.
+
+We can inspect the breakpoint with the dev tools of google chorme.

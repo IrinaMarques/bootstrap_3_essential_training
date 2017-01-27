@@ -1,0 +1,38 @@
+======================================
+2.1 Understanding Bootstrap containers
+======================================
+
+--> lesson_2_1.html
+
+12 column grid
+Accessed throught Css classes
+
+Three key concepts: 
+1 - Container
+2 - Rows 
+3 - Columns
+
+1. Container:
+Control layout
+Add padding - 15px in each side of the element
+
+Two types:
+- Fluid: always adjusts to the size of the device 
+.container-fluid
+- Fixed-Width: Show a specific size depending the size of the viewport. Adjusts to media query breakpoints.
+.container
+
+--> img/fixed_width_container.png
+
+If we want an element to take the full width of the browser we don't put inside a container.
+
+
+======================
+2.2 Working with rows
+======================
+
+Rows
+- Horizontal groups of columns
+- Place whitin container
+- Shoyld always include columns
+- Get rid of the container padding

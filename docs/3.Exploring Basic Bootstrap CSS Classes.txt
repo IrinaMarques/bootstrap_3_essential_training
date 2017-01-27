@@ -79,3 +79,12 @@ Abbreviations:
 </blockquote>
 
 .blockquote-reverse
+
+=============================
+3.5 Working with lists styles
+=============================
+
+Classes:
+.list-unstyled : takes the styles, like the numbers
+.list-inline : put the list side by side and add a little bit of padding between each item
+.dl-horizontal : appear in a horizontal layout. Usually works fine for definition lists

@@ -49,3 +49,13 @@ Adding a class of table, bootstrap creates a table, with spaces of padding and l
 .danger
 .table-responsive
 
+=========================
+4.3 Adding Image Classes
+=========================
+
+Make a image responsive:
+.img-responsive - makes the max-width to 100%
+.center-block - image centers on the layout
+.img-rounded - round edges
+.img-circle - circular image
+.img-thumbnail - little border around the images

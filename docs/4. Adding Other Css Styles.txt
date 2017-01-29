@@ -28,3 +28,24 @@ Different sizes:
 State: 
 .active 
 .disable
+
+==========================
+4.2 Exploring table styles
+==========================
+
+<thead> = Table head
+
+Adding a class of table, bootstrap creates a table, with spaces of padding and lines.
+
+.table - creates a table structure
+.table-striped - stripped row, every other row have a different color.
+.table-bordered - border around the table
+.table-hover - highlight the different rows
+.table-condensed - table that take up less space
+.active
+.success
+.info
+.warning
+.danger
+.table-responsive
+

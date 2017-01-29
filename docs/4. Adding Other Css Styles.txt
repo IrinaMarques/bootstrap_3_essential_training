@@ -1,0 +1,30 @@
+===================================
+4.1 Working with Bootstrap buttons
+===================================
+
+Three types of elements that can be made to look like buttons:
+- link
+- button
+- input
+
+For button:
+.btn
+
+Different colors:
+.btn-default
+.btn-primary
+.btn-success
+.btn-info
+.btn-warning
+.btn-danger
+
+Different sizes:
+.btn-default
+.btn-lg
+.btn-sm
+.btn-xs
+.btn-block
+
+State: 
+.active 
+.disable

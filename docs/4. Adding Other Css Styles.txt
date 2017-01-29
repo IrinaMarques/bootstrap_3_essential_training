@@ -101,3 +101,17 @@ Show only on keyboard users:
 Replace a text with an image:
 .text-hide
 
+===============================
+4.5 Using responsive utilities
+===============================
+
+Responsive Utilities
+- Visibility at breakpoints/print
+- Visibility-size-display
+Visibility: visible or hidden
+Size: xs, sm, md, lg, print
+Display: block, inline, inline-block, print
+
+To make an element show up only at certain points
+
+An inline-block allows to specify the width

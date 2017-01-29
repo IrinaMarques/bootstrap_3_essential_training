@@ -3,3 +3,10 @@
 	margin: 0 auto;
 	display: block;
 }
+
+.imghead {
+	background-image: url(../img/antigo.jpg);
+	background-position: bottom center;
+	background-size: cover;
+	height: 300px;
+}

@@ -59,3 +59,45 @@ Make a image responsive:
 .img-rounded - round edges
 .img-circle - circular image
 .img-thumbnail - little border around the images
+
+==========================================
+4.4 Understanding Bootstrap helper classes
+==========================================
+
+Text:
+.text-muted - appears more lighter than normal
+.text-primary
+.text-success
+.text-info
+.text-warning
+.text-danger
+
+Background
+.bg-primary
+.bg-success
+.bg-info
+.bg-warning
+.bg-danger
+
+Image:
+.pull-right
+.pull-left
+.push-right
+.push-left
+.center-block - center an image in a block
+.clearfix - to clear ano float
+
+Show and hide classes - usually used in javascript
+.hidden
+.show
+.invisible - leaves the placeholder of the element
+
+We can show or hide elements in everything except for screen reader
+.sr-only
+
+Show only on keyboard users:
+.sr-only-focusable
+
+Replace a text with an image:
+.text-hide
+

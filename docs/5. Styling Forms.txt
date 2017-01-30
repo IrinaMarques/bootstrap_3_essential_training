@@ -2,3 +2,31 @@
 5.1 Creating a basic form
 =========================
 
+A label for='' have a corresponding input id=''
+
+<label for='inputName'>Name</label>
+<input type="text" id="inputName" placeholder="Name">
+
+.sr-only - hide the labels that we don't want and they appear in small screens only.
+.form-control - the field gets a little padding and color when is selected. And it's 100% of the width of the container.
+.form-group - add space between the groups. Have to create a <div> with this class.
+
+Checkboxes are a special case.
+
+===========================================
+5.2 Formatting radio and checkbox controls
+===========================================
+
+When we do checkboxes or radio boxes we add a div with a class of checkbox.
+<div class='checkbox'>
+The labels are wrapped around the control instead of traditionally placed next to the controls and don't have a for attribute.
+
+Use checkboxes when we want the user to be able to choose one or more options.
+
+In the radio option if we give the same name='' to the options the user only can choose one of the options. 
+
+We also have the disabled option.
+Ex. 
+<input name='options' type="radio" disabled>
+
+We can also run checkboxes or radio buttons as a series of inline element. But to do that we have to take the div with the class of radio. 

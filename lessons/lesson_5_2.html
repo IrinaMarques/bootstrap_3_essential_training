@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<!-- Link to my styles after the Bootstrap so styles can override Bootstrap functionality -->
+	<link rel="stylesheet" href="styles.css">
+
+	<title>Bootstrap</title>
+
+</head>
+
+<body>
+
+	<div class="jumbotron">
+		<div class="container">
+			<h1>Bootstrap 3</h1>
+			<h3>Lesson 5.2: Radio and Checkbox</h3>
+		</div> <!-- end container -->
+	</div> <!-- end jumbotron -->
+
+	
+	<div class='container'>
+
+		<form>
+			<div class='form-group'>
+				<label  for='inputName'>Name</label>
+				<input class='form-control' type="text" id="inputName" placeholder="Name">
+			</div>
+			
+			<!-- CHECKBOX -->
+			<!-- a div with a class of checkbox -->
+			<!-- labels around the control -->
+			<!-- don't have a for attribute -->
+			<div class='checkbox'> 
+				<label>
+					<input type="checkbox">
+					One
+				</label>
+			</div>
+
+			<div class='checkbox'>
+				<label>
+					<input type="checkbox">
+					Two
+				</label>
+			</div>
+
+			<hr>
+
+			<!-- RADIO -->
+			<!-- use the name='' because they have the same name we only can choose between one or another -->
+			<div class='radio'> 
+				<label>
+					<input name='options' type="radio">
+					One
+				</label>
+			</div>
+
+			<div class='radio'>
+				<label>
+					<input name='options' type="radio">
+					Two
+				</label>
+			</div>
+			
+			<!-- this one is disabled -->
+			<div class='radio disabled'> <!-- the label and the control are disabled -->
+				<label>
+					<input name='options' type="radio" disabled> <!-- the icon is disabled -->
+					Three
+				</label>
+			</div>
+
+			<hr>
+			<!-- RADIO INLINE -->
+			<!-- We have to take the div with a class of radio -->
+			<!-- In the label add a class='radio-inline'-->
+			<!-- The form group makes the submit buttom not inline with the radio buttons -->
+			<div class='form-group'>
+				<label class='radio-inline'>
+					<input name='options' type="radio"> 
+					Four
+				</label>
+			 
+				<label class='radio-inline'>
+					<input name='options' type="radio"> 
+					Five 
+				</label>
+			</div>	
+		
+			<input class='btn btn-default' type="submit" value="submit">
+		
+		</form>
+				
+	</div>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<script src='script.js'></script>
+
+</body>
+</html>

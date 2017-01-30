@@ -73,3 +73,13 @@ div class='form-group has-success has-feedback'>
 And add a span with a class of glyphicon
 <span class='glyphicon glyphicon-ok form-control-feedback' aria-hidden='true'>
 
+======================= 
+5.6 Using input groups
+=======================
+
+.input-groups - allows to combine fields together with other elements to create interesting controls.
+.input-group-addon - adds a gray box
+
+People add their own options to the field - combine a checkbox with an input field.
+
+It's important to use a arial-label for the checkbox 

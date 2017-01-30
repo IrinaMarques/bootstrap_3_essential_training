@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<!-- Link to my styles after the Bootstrap so styles can override Bootstrap functionality -->
+	<link rel="stylesheet" href="styles.css">
+
+	<title>Bootstrap</title>
+
+</head>
+
+<body>
+
+	<div class="jumbotron">
+		<div class="container">
+			<h1>Bootstrap 3</h1>
+			<h3>Lesson 5.4: Horizontal Forms</h3>
+		</div> <!-- end container -->
+	</div> <!-- end jumbotron -->
+
+	
+	<div class='container'>
+
+		<!-- HORIZONTAL FORMS -->
+		<form class='form-horizontal'>
+			<div class='form-group'>
+				<!-- added a col-sm-2 -->
+				<label class='col-sm-2 control-label' for='inputName'>Name</label>
+				<!-- added a col-sm-10 -->
+				<div class='col-sm-10'>
+				<input class='form-control' type="text" id="inputName" placeholder="Name">
+				</div>
+			</div>
+
+			<div class='form-group'>
+				<label class='col-sm-2 control-label' for='inputEmail'>Email</label>
+				<div class='col-sm-10'>
+				<input class='form-control' type="text" id="inputName" placeholder="Email">
+				</div>
+			</div>
+
+			<div class='form-group'>
+				<label class='col-sm-2 control-label' for='selectSite'>Site</label>
+				<div class='col-sm-10'>
+				<select class='form-control' id='selectSite'>
+					<option>Choose...</option>
+					<option>lynda.com</option>
+					<option>raybo.org</option>
+					<option>iviewsource.com</option>
+				</select>
+				</div>
+			</div>
+		
+			<!-- THE CHECKBOX -->
+			<div class='form-group'>
+				<div class='col-sm-10 col-sm-offset-2'>
+					<div class='checkbox'>
+						<label>
+							<input id='inputAddList' type="checkbox">Add me to e-mail blast
+						</label>
+					</div>
+				</div>
+			</div>
+
+			<div class='form-group'>
+				<label class='col-sm-2 control-label' for='inputComments'>Comments</label>
+				<div class='col-sm-10'>
+				<textarea class='form-control' id='inputComments'></textarea>
+				</div>
+			</div>	
+
+			<!-- THE SUBMIT BUTTON -->
+			<div class='form-group'>
+				<div class='col-sm-10 col-sm-offset-2'>
+					<input class='btn btn-default' type="submit" value="submit">
+				</div>
+			</div>
+		
+		</form>
+				
+	</div>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<script src='script.js'></script>
+
+</body>
+</html>

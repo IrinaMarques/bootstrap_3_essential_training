@@ -44,3 +44,15 @@ When we wnat to hide a lable we should use the class of sr-only
 
 To center the form:
 We go to the css and make a text-align: center
+
+============================= 
+5.4 Styling a horizontal form
+=============================
+
+The classes uses the Bootstrap grid System.
+It's not going to work on a view that is smaller than 768px.
+
+Using the column system to maje the horizontal form. In the:
+- labels
+- ckeckbox
+- submit button

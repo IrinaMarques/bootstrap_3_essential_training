@@ -52,7 +52,24 @@ We go to the css and make a text-align: center
 The classes uses the Bootstrap grid System.
 It's not going to work on a view that is smaller than 768px.
 
-Using the column system to maje the horizontal form. In the:
+Using the column system to make the horizontal form. In the:
 - labels
 - ckeckbox
 - submit button
+
+============================ 
+5.5 Using validation styles
+============================
+
+Styles related to validation:
+.has-warning - yellow border
+.has-error - red border
+.has-success - green border
+.control-label - get the same color as the input field
+
+Add icons to the validation for visual feedback about the forms.
+.has-feedback
+div class='form-group has-success has-feedback'>
+And add a span with a class of glyphicon
+<span class='glyphicon glyphicon-ok form-control-feedback' aria-hidden='true'>
+

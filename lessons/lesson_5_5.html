@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<!-- Link to my styles after the Bootstrap so styles can override Bootstrap functionality -->
+	<link rel="stylesheet" href="styles.css">
+
+	<title>Bootstrap</title>
+
+</head>
+
+<body>
+
+	<div class="jumbotron">
+		<div class="container">
+			<h1>Bootstrap 3</h1>
+			<h3>Lesson 5.5: Validation Styles</h3>
+		</div> <!-- end container -->
+	</div> <!-- end jumbotron -->
+
+	
+	<div class='container'>
+		<div class='row'>
+			<section class='col-xs-12'>
+
+			<form>
+				<!-- Yellow border -->
+				<div class='form-group has-warning'>
+					<label for='inputName'>Name</label>
+					<input class='form-control' type="text" id="inputName" placeholder="Name">
+				</div>
+				<!-- Red border -->
+				<div class='form-group has-error'>
+					<label for='inputName'>Name</label>
+					<input class='form-control' type="text" id="inputName" placeholder="Name">
+				</div>
+				<!-- Green border -->
+				<div class='form-group has-success'>
+					<label for='inputName'>Name</label>
+					<input class='form-control' type="text" id="inputName" placeholder="Name">
+				</div>
+				
+				<hr>
+				<!-- Same color the label and the field -->
+				<div class='form-group has-success'>
+					<label class='control-label' for='inputName'>Name</label>
+					<input class='form-control' type="text" id="inputName" placeholder="Name">
+				</div>
+
+				<hr>
+				<!-- Green border with an icon-->
+				<div class='form-group has-success has-feedback'>
+					<label for='inputName'>Name</label>
+					<input class='form-control' type="text" id="inputName" placeholder="Name" aria-describedby='nameStatus'>
+					<span class='glyphicon glyphicon-ok form-control-feedback' aria-hidden='true'></span>
+					<!-- Show only on Screen Reader -->
+					<span id='nameStatus' class='sr-only'>(success)</span>
+				</div>
+
+			</form>
+
+			</section>
+		</div>		
+	</div>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<script src='script.js'></script>
+
+</body>
+</html>

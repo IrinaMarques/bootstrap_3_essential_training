@@ -30,3 +30,17 @@ Ex.
 <input name='options' type="radio" disabled>
 
 We can also run checkboxes or radio buttons as a series of inline element. But to do that we have to take the div with the class of radio. 
+
+====================== 
+5.3 Using inline forms
+======================
+
+Styles that will apply to Sm breakpoint or bigger than 768px.
+We have to add the class
+.form-inline 
+
+Hide the labels.
+When we wnat to hide a lable we should use the class of sr-only
+
+To center the form:
+We go to the css and make a text-align: center

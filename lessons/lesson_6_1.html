@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<!-- Link to my styles after the Bootstrap so styles can override Bootstrap functionality -->
+	<link rel="stylesheet" href="styles.css">
+
+	<title>Bootstrap</title>
+
+</head>
+
+<body>
+
+	<div class="jumbotron">
+		<div class="container">
+			<h1>Bootstrap 3</h1>
+			<h3>Lesson 6.1: Dropdown</h3>
+		</div> <!-- end container -->
+	</div> <!-- end jumbotron -->
+
+	<div class='container'>
+		<div class='dropdown'>
+		<!-- FOR A GROUP BUTTON -->
+		<!--	<div class='btn-group'>
+					<button type='button' class='btn btn-info'>Search Pet Info</button>
+					<button type='button' data-toggle='dropdown' id='pettype' aria-haspopup='true' aria-expanded='false' class='btn btn-info dropdown-toggle'>
+						<span class='caret'></span>
+						<span class='sr-only'>Toggle Dropdown</span>
+					</button> -->
+			<button type='button' data-toggle='dropdown' id='pettype' class='btn btn-info dropdown-toggle' aria-haspopup='true' aria-expanded='true'>Pet Type
+				<span class='caret'></span>
+			</button>
+			<ul class='dropdown-menu' aria-label='pettype'>
+				<!-- HEADER -->
+				<li class='dropdown-header'>Common</li>
+				<li><a href="#">Cat</a></li>
+				<li><a href="#">Dog</a></li>
+				<li><a href="#">Fish</a></li>
+				<!-- DISABLED -->
+				<li class='disabled'><a href="#">Birds</a></li>
+				<!-- DIVIDER -->
+				<li role='separator' class='divider'></li>
+				<!-- HEADER -->
+				<li class='dropdown-header'>Exotic Pets</li>
+				<li><a href="#">Amphibian</a></li>
+				<li><a href="#">Reptile</a></li>
+				<li><a href="#">Other</a></li>
+			</ul>
+		</div>
+	</div>
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<script src='script.js'></script>
+
+</body>
+</html>

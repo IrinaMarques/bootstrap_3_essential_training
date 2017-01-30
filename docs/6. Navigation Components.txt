@@ -1,0 +1,50 @@
+========================
+6.1 Creating a dropdown
+========================
+
+1.
+Wrap both the button and the list with a DIV that has a class of dropdown.
+<div class='dropdown'>
+
+2.
+Add the data toggle equals dropdown attribute to the button.
+<button type='button' data-toggle='dropdown' class='btn btn-info'>Pet Type</button>
+
+3.
+Add a class of dropdown toggle.
+<button type='button' data-toggle='dropdown' class='btn btn-info dropdown-toggle'>Pet Type</button>
+
+4.
+On the unordered list add the dropdown menu class. 
+<ul class='dropdown-menu'>
+
+5.
+Add a caret to let the user know that this button is going to behave differently than a regular button. 
+
+6.
+Add an id so can be linked to the dropdown.
+On the button id='pettype'
+On the ul aria-label='pettype'
+
+7.
+Ass another elements to the button - accessibility:
+aria-haspopup='true' - let screen readers know that this element has a popup.
+aria-expanded='true' - let screen readers know that this element has an expandable or collapsible region. 
+
+8.
+Create a dropdown header:
+.dropdown-header
+<li class='dropdown-header'>Common</li>
+
+9.
+Add a divider:
+.divider
+<li role='separator' class='divider'></li>
+
+10.
+Add a disable class to an element
+.disabled
+
+11.
+Use a button group to create a split button. Allow to combine buttons together
+

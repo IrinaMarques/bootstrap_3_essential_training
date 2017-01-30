@@ -83,3 +83,31 @@ And add a span with a class of glyphicon
 People add their own options to the field - combine a checkbox with an input field.
 
 It's important to use a arial-label for the checkbox 
+
+========================================= 
+5.7 Using miscellaneous styles and sizing
+=========================================
+
+Add a disabled attribute to a input field:
+.disabled
+
+Group certain areas of the forms togther
+<fieldset>
+<legend> ... </legend>
+</fieldset>
+
+We can disable a fieldset
+
+readonly input - input that shows up but doesn't let you modify it
+
+.form-control-static - create text that takes up the same space as a control
+
+Input field sizes:
+.input-lg
+.input-md
+.input-sm
+
+Or if we want to control the all group sizes we use the form group classes.
+.form-goup-sm
+.form-group-md
+.form-group-lg

@@ -111,3 +111,9 @@ Or if we want to control the all group sizes we use the form group classes.
 .form-goup-sm
 .form-group-md
 .form-group-lg
+
+================
+5.8 Using Icons
+================
+
+<span class='glyphicon glyphicon-phone'></span>

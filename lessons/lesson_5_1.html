@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<!-- Link to my styles after the Bootstrap so styles can override Bootstrap functionality -->
+	<link rel="stylesheet" href="styles.css">
+
+	<title>Bootstrap</title>
+
+</head>
+
+<body>
+
+	<div class="jumbotron">
+		<div class="container">
+			<h1>Bootstrap 3</h1>
+			<h3>Lesson 5.1: Basic Form</h3>
+		</div> <!-- end container -->
+	</div> <!-- end jumbotron -->
+
+	
+	<div class='container'>
+
+		<form>
+			<div class='form-group'>
+				<label  for='inputName'>Name</label>
+				<input class='form-control' type="text" id="inputName" placeholder="Name">
+			</div>
+
+			<div class='form-group'>
+				<label for='inputEmail'>Email</label>
+				<input class='form-control' type="text" id="inputName" placeholder="Email">
+			</div>
+
+			<div class='form-group'>
+				<label for='selectSite'>Site</label>
+				<select class='form-control' id='selectSite'>
+					<option>Choose...</option>
+					<option>lynda.com</option>
+					<option>raybo.org</option>
+					<option>iviewsource.com</option>
+				</select>
+			</div>
+		
+			<div class='checkbox'>
+				<label>
+				<input id='inputAddList' type="checkbox">
+				Add me to e-mail blast</label>
+			</div>
+
+			<div class='form-group'>
+				<label for='inputComments'>Comments</label>
+				<textarea class='form-control' id='inputComments'></textarea>
+			</div>	
+
+				<input class='btn btn-default pull-right' type="submit" value="submit">
+		
+		</form>
+				
+	</div>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<script src='script.js'></script>
+
+</body>
+</html>

@@ -29,3 +29,14 @@ Badge
 - only have this grey color.
 .badge
 <a href="#">read articles <span class='badge'>4</span></a>
+
+=============================
+7.3 Using the thumbnail style
+=============================
+
+Bootstrap provides a class for working with images that you can also use with captions for some really nice layouts - thumbnail.
+- images with an outline around them
+<a href="#" class='thumbnail'><img src="../img/cafe-1.jpg" alt='coffee'></a>
+
+Add a caption
+.caption

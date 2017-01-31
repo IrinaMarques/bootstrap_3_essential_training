@@ -56,3 +56,28 @@ Add a caption
 We can put into a list
 <ul class='media-list'>
 each div tags will be a li with a class of media
+
+=========================================
+7.5 Flowing video with responsive embeds
+=========================================
+
+1
+Add the video
+<video src='video/brushing.mp4'>
+
+2.
+Add some attributes
+autoplay controls muted
+
+3.
+Add some classes
+we need a container
+<div class='embed-responsive embed-responsive-4by3'>
+.embed-responsive-(with a propotion): 4by3 or 16by9
+
+4.
+Add a class to the video tag
+<video class='embed-responsive-item' src='video/brushing.mp4' autoplay controls muted></video>
+
+- it's going to adjust to the container no matter what size that container is.
+- work with something like an iframe that might get from YouTube, an embed, or any object element as well.

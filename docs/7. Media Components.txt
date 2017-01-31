@@ -40,3 +40,19 @@ Bootstrap provides a class for working with images that you can also use with ca
 
 Add a caption
 .caption
+
+=================
+7.4 Media Styles
+=================
+
+.media
+
+.media-left
+.media-right
+.media-middle
+.media-bottom
+.media-body
+
+We can put into a list
+<ul class='media-list'>
+each div tags will be a li with a class of media

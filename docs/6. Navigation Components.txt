@@ -158,3 +158,21 @@ When you view a navigation component on an access breakpoint, that means a break
 1.
 Group the navigation
 <div class='collapse navbar-collapse' id='collapse-menu'>
+
+===========================================
+6.6 Using breadcrumbs and pagination styles
+===========================================
+
+Breadcrumbs are a way of showing the user where they are in the hierarchy of the website. 
+.breadcrumb
+
+Another navigation element - pager - lets you create buttons that allow people to navigate through content.
+.pager
+
+If you've got a number of different items on some sort of photo slide show, then you can use pagination.
+.pagination
+
+Sizes:
+.pagination-lg
+.pagination-sm
+.pagination-md

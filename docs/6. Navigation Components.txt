@@ -46,5 +46,35 @@ Add a disable class to an element
 .disabled
 
 11.
-Use a button group to create a split button. Allow to combine buttons together
+Use a button group to create a split button. Allow to combine buttons together.
+.btn-goup
+
+========================
+6.2 Using button groups
+========================
+
+Creating groups:
+
+1.
+Add a div with a class of btn-group with a role of group.
+.btn-group
+<div class='btn-group' role='group'>
+
+Add a label so reader know what to say
+aria-label='...'
+
+2.
+We can make the buttons vertically instead of horizontally
+.btn-group-vertical
+
+3.
+We can also combine as a toolbar - marked as being related.
+So we have to create a div with a class of btn-toolbar
+.btn-toolbar
+
+4.
+justify button groups - expand to be the full width of is container
+.btn-group-justified
+
+Each button as to be on it own group
 

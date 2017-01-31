@@ -12,3 +12,20 @@ The Jumbotron, looks like the page header but looks a lot different
 - put it in this grey box
 - gives it a nice radial border 
 - adds a little padding around the whole element
+
+======================
+7.2 Labels and Badges
+======================
+
+Labels and badges are two useful CSS components that can take care of instances where you want to pass certain bits of information to the user. 
+
+Labels
+- the size is contextual depending the parent
+.label + .label-color (danger, warning, default, info, primary, success)
+<h2>Label <span class='label label-danger'>new</h2>
+
+Badge
+- indicate that maybe there's a number of articles.
+- only have this grey color.
+.badge
+<a href="#">read articles <span class='badge'>4</span></a>

@@ -1,0 +1,14 @@
+==========================================
+7.1 Creating a Jumbotron and a page header
+==========================================
+
+The page Header
+.page-header 
+- adds a little padding 
+
+The Jumbotron, looks like the page header but looks a lot different
+.jumbotron
+- makes the font a little bit bigger
+- put it in this grey box
+- gives it a nice radial border 
+- adds a little padding around the whole element

@@ -78,3 +78,48 @@ justify button groups - expand to be the full width of is container
 
 Each button as to be on it own group
 
+=============================================
+6.3 Understanding the Bootstrap nav component
+=============================================
+
+Three diferent types of nav that we can create:
+- tabs
+- pills
+- navbars
+
+<ul class='nav nav-tabs/pills/navbar'>
+
+Usability role='presentation'
+
+1.
+To a tab:
+.nav-tabs
+
+To pills:
+.nav-pills
+
+2.
+We can stack:
+.nav-stack
+
+3.
+Pills can also be justified:
+.nav-pills .nav-justified
+
+4.
+The navbar is just a special type of navigation that has a navbar-nav class. Look more like navigation.
+.navbar-nav
+
+- Navigation doesn't usually go inside a container 
+- Can make fit the entire width of the container
+- At the mobile break point, which is xs, or 768 pixels, the navbars will become stacked
+
+To make this more accessible we need to create a nav element that wraps around the navbar.
+
+There are other classes that we can use in the navbar-nav
+.navbar-default
+.navbar-inverse
+.navbar-fixed-buttom
+.navbar-fixed-top
+
+A normal navigation takes about 50px.

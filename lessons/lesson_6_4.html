@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<!-- Link to my styles after the Bootstrap so styles can override Bootstrap functionality -->
+	<link rel="stylesheet" href="styles.css">
+
+	<title>Bootstrap</title>
+
+</head>
+
+<body>
+
+	<div class="jumbotron">
+		<div class="container">
+			<h1>Bootstrap 3</h1>
+			<h3>Lesson 6.4: Content to the Navbar</h3>
+		</div> <!-- end container -->
+	</div> <!-- end jumbotron -->
+
+	<nav class='navbar navbar-default'>
+		<div class='container'>
+			<!-- Navbar Header -->
+			<div class='navbar-header'>
+			<!-- Contains the Navbar Brand -->
+				<a href="#" class='navbar-brand'>Wisdom Pets</a>
+			</div>
+
+			<ul class='nav navbar-nav'>
+				<li><a href="#">Mission</a></li>
+				<li>
+				<!-- dropdown-menu -->
+				<a href="#" class='dropdown-toggle' data-toggle='dropdown' role='button' aria-haspopup='true' aria-expanded='false'>Services
+				<span class='caret'></span>
+				</a>
+					<ul class='dropdown-menu'>
+						<li><a href="#">Exotic Pets</a></li>
+						<li><a href="#">Grooming</a></li>
+						<li><a href="#">General Health</a></li>
+				</ul>
+				</li>
+				<!-- We can take this ones to make more legible 
+				<li><a href="#">Staff</a></li>
+				<li><a href="#">Testimonials</a></li>
+				-->
+			</ul>
+		
+			<!-- NAVBAR FORM -->
+			<form class='navbar-form navbar-right' role='search'>
+				<div class='form-group'>
+					<input type="text" class="form-control" placeholder='Search'>
+				</div>
+				<button type='submit' class='btn btn-default'>go</button>
+			</form>
+			
+			<!-- NAVBAR BUTTON -->
+			<button type='button' class='btn btn-default navbar-btn'>sign in</button>
+		</div>
+	</nav>
+				
+	<div class='container'>
+		<h2>Our Mission</h2>
+
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam recusandae corporis, neque perferendis, atque facere molestiae totam esse nemo eos? Laboriosam nemo, fugiat cumque odit quaerat eaque autem eos sequi.</p>
+
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum mollitia reiciendis recusandae, debitis non dicta repellat cupiditate ducimus excepturi, eveniet, tempora suscipit quam officia, sit consequatur at ipsam deserunt quidem.</p>
+
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<script src='script.js'></script>
+
+</body>
+</html>

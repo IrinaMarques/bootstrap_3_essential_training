@@ -123,3 +123,28 @@ There are other classes that we can use in the navbar-nav
 .navbar-fixed-top
 
 A normal navigation takes about 50px.
+
+=================================
+6.4 Adding content to the navbar
+=================================
+
+We can put any number of elements inside the navbar but to align them properly we have to wrapthem in special classes. 
+
+1.
+Navbar-header
+The navbar-header
+.navbar-brand - special class for create the brand, can be text or icon. Usually the band is linked to the homepage.
+.navbar-text
+
+<div class='navbar-header'>
+<a href="#" class='navbar-brand'>Wisdom Pets</a>
+<p class='navbar-text'>pet loving care</p>
+</div>
+
+We can add a button but it needs an additional class
+.navbar-btn
+
+A navbar forms
+.navbar-form
+
+One of the problems with a lot of form elements, is that they won't align properly once they reach a certain size - for that dropdowns are a solution.

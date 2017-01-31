@@ -148,3 +148,13 @@ A navbar forms
 .navbar-form
 
 One of the problems with a lot of form elements, is that they won't align properly once they reach a certain size - for that dropdowns are a solution.
+
+===============================
+6.5 Collapsing your navigation
+===============================
+
+When you view a navigation component on an access breakpoint, that means a breakpoint that is smaller than 768 pixels, the navigation is going to stack up on top of one another like this. It's common to display something called a Hamburger menu that expands to display the complete list.
+
+1.
+Group the navigation
+<div class='collapse navbar-collapse' id='collapse-menu'>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<!-- Link to my styles after the Bootstrap so styles can override Bootstrap functionality -->
+	<link rel="stylesheet" href="styles.css">
+
+	<title>Bootstrap</title>
+
+</head>
+
+<body>
+
+	<div class="jumbotron">
+		<div class="container">
+			<h1>Bootstrap 3</h1>
+			<h3>Lesson 6.5: Collapsing navbar</h3>
+		</div> <!-- end container -->
+	</div> <!-- end jumbotron -->
+
+	<!-- COLLAPSE MENU -->
+	<nav class='navbar navbar-default'>
+		<div class='container'>
+			<div class='navbar-header'>
+				<button type='button' class='navbar-toggle collapsed' data-toggle='collapse' data-target='#collapsemenu' aria-expanded='false'>
+					<span class='sr-only'>Toggle navigation</span>
+					<span class='icon-bar'></span>
+					<span class='icon-bar'></span>
+					<span class='icon-bar'></span>
+				</button>
+				<a href="#" class='navbar-brand'>Wisdom Pets</a>
+			</div>
+				
+			<div class='collapse navbar-collapse' id='collapsemenu'>	
+				<ul class='nav navbar-nav'>
+					<li><a href="#">Home</a></li>
+					<li class='active'><a href="#">Mission</a></li>
+					<li><a href="#">Services</a></li>
+					<li><a href="#">Staff</a></li>
+					<li><a href="#">Testimonials</a></li>
+				</ul>
+			</div>
+	
+		</div>
+	</nav>
+
+	<div class='container'>
+		<h2>Our Mission</h2>
+
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam recusandae corporis, neque perferendis, atque facere molestiae totam esse nemo eos? Laboriosam nemo, fugiat cumque odit quaerat eaque autem eos sequi.</p>
+
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum mollitia reiciendis recusandae, debitis non dicta repellat cupiditate ducimus excepturi, eveniet, tempora suscipit quam officia, sit consequatur at ipsam deserunt quidem.</p>
+
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<script src='script.js'></script>
+
+</body>
+</html>

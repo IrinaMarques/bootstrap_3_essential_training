@@ -1,0 +1,22 @@
+========================
+8.1 Styling list groups
+========================
+
+Add a class
+.list-group
+<ul class='list-group'>
+
+Each list items another class
+.list-group-item
+<li class='list-group-item'>Sydney Bastlett</li>
+
+We can create a badge
+.badge
+<li class='list-group-item'>Cally Reynolds<span class='badge'>14</span></li>
+
+If we use a div instead of a ul and a a instead li we make links to the names. To be clicable don't need to use button styles.
+
+There are another classes that we can use to make the text smaller.
+.active
+.disable
+.list-group-item-success (info, danger, warnning, default..) 

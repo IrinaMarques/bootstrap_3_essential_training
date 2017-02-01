@@ -48,3 +48,15 @@ For the headline
 Add other things
 - table --> https://goo.gl/V8pFxr
 - list group
+
+================
+8.3 Using wells
+================
+
+wells - gives the element essentially an inset effect, and it boxes them.
+.well
+
+Amout of indentation.
+.well-lg
+.well-sm
+

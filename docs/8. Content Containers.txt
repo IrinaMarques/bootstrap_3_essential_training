@@ -20,3 +20,31 @@ There are another classes that we can use to make the text smaller.
 .active
 .disable
 .list-group-item-success (info, danger, warnning, default..) 
+
+========================
+8.2 Working with panels
+========================
+
+Panels are similar to what you can do with thumbnails and even list groups, but they have a different structure a little more semantic sense.
+
+Can combine these with tables and list groups to create slightly more complex layouts than you can do with something like a thumbnail.
+
+Create a div with a class
+.panel
+.panel-default
+.panel-primary
+.panel-seccess
+.panel-info
+.panel-warnning
+.panel-danger
+
+Inside the panel we can have
+.panel-heading
+.panel-body
+
+For the headline
+.panel-title
+
+Add other things
+- table --> https://goo.gl/V8pFxr
+- list group

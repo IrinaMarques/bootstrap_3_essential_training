@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<!-- Link to my styles after the Bootstrap so styles can override Bootstrap functionality -->
+	<link rel="stylesheet" href="styles.css">
+
+	<title>Bootstrap</title>
+
+</head>
+
+<body>
+
+	<div class="jumbotron">
+		<div class="container">
+			<h1>Bootstrap 3</h1>
+			<h3>Lesson 9.3: Controlling tabs with JavaScript</h3>
+		</div> <!-- end container -->
+	</div> <!-- end jumbotron -->
+
+	<div class='content container'>
+		<div class='row'>
+			<section class='col-sm-12'>
+
+			<h1>Services</h1>
+
+			<ul class='nav nav-tabs' role='tablist'>
+				<li role='presentation' class='active'>
+					<a role='tab' data-toggle='tab' href="#exoticpets">Exotic Pets
+					</a>
+				</li>
+				<li role='presentation'>
+					<a role='tab' data-toggle='tab' href="#grooming">Grooming
+					</a>
+				</li>
+				<li role='presentation'>
+					<a role='tab' data-toggle='tab' href="#generalhealth">General Health
+					</a>
+				</li>
+			</ul>
+
+			<div class='tab-content'>
+				<div role='tab-panel' class='tab-pane active' id='exoticpets'>
+					<h3>What we do</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa nobis rerum, ab laudantium. Esse architecto vero fugiat nostrum, repudiandae in, quidem consequatur adipisci eum cumque, iusto perferendis corporis tempore sed.</p>
+				</div>
+				<div role='tab-panel' class='tab-pane' id='grooming'>
+					<h3>Qualquer coisa</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa nobis rerum, ab laudantium. Esse architecto vero fugiat nostrum, repudiandae in, quidem consequatur adipisci eum cumque, iusto perferendis corporis tempore sed.</p>	
+				</div>
+				<div role='tab-panel' class='tab-pane' id='generalhealth'>
+					<h3>Outra qualquer coisa</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa nobis rerum, ab laudantium. Esse architecto vero fugiat nostrum, repudiandae in, quidem consequatur adipisci eum cumque, iusto perferendis corporis tempore sed.</p>	
+				</div>
+			</div>
+			
+			</section>		
+		</div>		
+	</div>
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<script src='script.js'></script>
+
+</body>
+</html>

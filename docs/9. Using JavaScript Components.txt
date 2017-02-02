@@ -109,3 +109,24 @@ Modal have various sizes
 4.
 We can also add an animation of fade:
 <div class='modal fade' id='policy' tabindex="-1" role='dialog' aria-labelledby='modalLabel'>
+
+=====================================
+9.3 Controllinng tabs with JavaScript
+=====================================
+
+First create a ul with a class of tab
+<ul class='nav navtabs' role='tablist'>
+
+Then create a list with a class of presentation
+<li class='presentation'></li>
+
+Inside an anchor tag because this is going to be links
+<li role='presentation'><a role='tab' href="#exoticpets">Exotic Pets</a></li>
+
+We need to add a data-toggle. Data attribute in Bootstrap, it's something that the JavaScript processor in Bootstrap needs in order to understand what to do with this information.
+<a role='tab' data-toggle='tab' href="#exoticpets">Exotic Pets</a>
+
+Now we need to place the content into divs with a class of tab-pane, a role and the id that we define above.
+<div role='tab-panel' class='tab-pane active' id='exoticpets'>
+
+Inside the div we put the content and difine the one that it's active.

@@ -153,3 +153,16 @@ Inside a div with a class of panel and a panel-(for color)
 <div class='panel panel-default'>
 
 Then a panel heading and a panel for content
+
+======================
+9.5 Creating a tooltip
+======================
+
+Tooltips are a really nice way to enhance some inline content.
+
+<a href="#" data-toggle='tooltip' data-placement='top' title='Culpa nobis rerum, ab laudantium.'>
+
+$(function() {
+   $('[data-toggle="tooltip"]').tooltip();
+});
+

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<!-- Link to my styles after the Bootstrap so styles can override Bootstrap functionality -->
+	<link rel="stylesheet" href="styles.css">
+
+	<title>Bootstrap</title>
+
+</head>
+
+<body>
+
+	<div class="jumbotron">
+		<div class="container">
+			<h1>Bootstrap 3</h1>
+			<h3>Lesson 9.1: Carousel</h3>
+		</div> <!-- end container -->
+	</div> <!-- end jumbotron -->
+
+	<div class='container'>
+		<div class='row'>
+			<section class='col-sm-12'>
+
+			<!-- CAROUSEL -->
+			<!-- data-ride='carousel' - automatically start -->
+			<div class='carousel slide' data-ride='carousel' id='featured'>
+
+			<!-- Indicators -->
+			<ol class='carousel-indicators'>
+				<li data-target='#featured' data-slide-to='0' class='active'></li>
+				<li data-target='#featured' data-slide-to='1'></li>
+				<li data-target='#featured' data-slide-to='2'></li>
+			</ol>
+
+				<!-- Images in the .carousel-inner -->
+				<div class='carousel-inner'>
+					<!-- Each image .item -->
+					<div class='item active'>
+						<img src="../img/antigo.jpg" alt='old'>
+						<!-- CAPTION
+						<div class='carousel-caption'>
+							<h3>Caption Headline</h3>
+							<p>Caption Text: Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+						</div>
+						-->
+					</div>
+					<div class='item'>
+						<img src="../img/bg.jpg" alt='coffee'>
+					</div>
+					<div class='item'>
+						<img src="../img/cafe-1.jpg" alt='coffee'>
+					</div>
+				</div> <!-- carousel-inner -->
+
+				<a class='left carousel-control' href="#featured" role='button' data-slide='prev'>
+					<span class='glyphicon glyphicon-chevron-left'></span>
+				</a>
+
+				<a class='right carousel-control' href="#featured" role='button' data-slide='next'>
+					<span class='glyphicon glyphicon-chevron-right'></span>
+				</a>
+
+			</div> <!-- carousel -->
+
+						<h2>Our Mission</h2>
+						
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa nobis rerum, ab laudantium. Esse architecto vero fugiat nostrum, repudiandae in, quidem consequatur adipisci eum cumque, iusto perferendis corporis tempore sed. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum provident perspiciatis consectetur culpa quibusdam dolor, sequi voluptates eaque officia aut dolores nesciunt possimus maxime ab cupiditate accusantium tenetur quis odit?</p>
+
+						<p>Doctor's Tip: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione totam, nobis cumque veniam. Unde fugit veritatis ad autem dolores neque asperiores eum ipsam! Fugiat excepturi nulla hic! Natus, delectus, itaque. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt quae alias iusto officia. Consequatur iste quis, magni. Atque consequuntur, mollitia animi error repudiandae reprehenderit neque aspernatur, illo dolorem accusamus voluptatem.</p>
+
+
+			
+
+
+			</section>		
+		</div>		
+	</div>
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<script src='script.js'></script>
+
+</body>
+</html>

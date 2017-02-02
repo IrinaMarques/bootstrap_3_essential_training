@@ -1,0 +1,65 @@
+========================
+9.1 Creating a carousel
+========================
+
+1. 
+Create a container with a class of carousel.
+.carousel
+<div class='carousel'>
+
+2.
+.carousel-inner - the images
+<div class='carousel-inner'>
+
+3.
+.item - each image
+<div class='item'><img src="../img/antigo.jpg" alt='old'></div>
+
+4.
+Carousel to automatically start we add the 
+data-ride="carousel"
+<div class='carousel' data-ride='carousel'>
+
+5.
+.slide - images slide
+<div class='carousel slide' data-ride='carousel'>
+
+6.
+Optionally add a caption inside the carousel
+.carousel-caption
+
+<div class='carousel-caption'>
+<h3>Caption Headline</h3>
+<p>Caption Text: Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+</div>
+
+7.
+To add a navigation we need to give the carousel an id
+<div class='carousel slide' id='featured'>
+
+Usually the navigation goes in the bottom.
+Create a anchor tag
+href='#id that we define' in this case: 
+href='#featured'
+
+Then a role of button.
+
+Data-slide - refers to a JavaScript method that will use whatever you put in here in order to control the movement of the slide. Move the carousel to the previous or to the next slide.
+
+Add a class.
+Add an icon.  
+<span class='glyphicon glyphicon-chevron-right'></span>
+
+Add indicators.
+<div class='carousel-inner'>
+
+Problems:
+
+- If we put the pictures in a container the maximum width of that container ends up being close to 1200 pixels some pictures stays align to the left. Go up to something like 3000 to solve the problem.
+
+- If the size of your images is slightly different, then you will see your content sort of jump up and down. Make sure that you pre-size your images. put them into Photoshop, you size them, make them all exactly the same proportions. Definitely the same height so that you do not have that problem of the images jumping around.
+
+Carousels are meant to be wide.
+
+Hiding the carousels when your layout is extra small. For that we have a class called hidden=xs that hide the carousel at the extra small size.
+<div class='carousel slide hidden-xs' id='featured'>

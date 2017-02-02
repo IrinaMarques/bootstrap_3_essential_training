@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<!-- Link to my styles after the Bootstrap so styles can override Bootstrap functionality -->
+	<link rel="stylesheet" href="styles.css">
+
+	<title>Bootstrap</title>
+
+</head>
+
+<body>
+
+	<div class="jumbotron">
+		<div class="container">
+			<h1>Bootstrap 3</h1>
+			<h3>Lesson 9.4: Crafting collapsible content</h3>
+		</div> <!-- end container -->
+	</div> <!-- end jumbotron -->
+
+	<div class='content container'>
+		<div class='row'>
+			<section class='col-sm-12'>
+
+			<h1>Services</h1>
+			
+			<!-- ACCORDION -->
+			<!-- 3. A div with a panel-group -->
+			<div class='panel-group' id='accordion' role='tablist' aria-multiselectable='true'>
+				
+
+				<div class='panel panel-default'>
+					<div class='panel-heading' role='tab' id='headingOne'>
+						<h4 class='panel-title'>
+						<!-- 1. Start with a button that will toggle on/off -->
+
+						<!-- A case of a button  we use a data-target 
+						<button data-target="#exoticpets" role='button' class='btn btn-primary' data-toggle='collapse' aria-expanded='false' aria-controls='exoticpets'>Exotic Pets</button> -->
+
+						<!-- A case of a anchor tag we use the href -->
+						<a href="#exoticpets" role='button' data-parent='#accordion' data-toggle='collapse' aria-expanded='false' aria-controls='exoticpets'>Exotic Pets</a>
+						</h4>	
+					</div>
+
+					<div class='panel-collapse collapse in' id='exoticpets' role='tabpanel' aria-labelledby='headingOne'>
+						<div class='panel-body'>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa nobis rerum, ab laudantium. </p>
+						</div>	
+					</div>	
+				</div>
+
+				<div class='panel panel-default'>
+					<div class='panel-heading' role='tab' id='headingTwo'>
+						<h4 class='panel-title'>
+						<a  class='collapsed' href="#exobirds" role='button' data-parent='#accordion' data-toggle='collapse' aria-expanded='false' aria-controls='exobirds'>Exotic Birds</a>
+						</h4>	
+					</div>
+
+					<div class='panel-collapse collapse' id='exobirds' role='tabpanel' aria-labelledby='headingTwo'>
+						<div class='panel-body'>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+						</div>	
+					</div>	
+				</div>
+
+				<div class='panel panel-default'>
+					<div class='panel-heading' role='tab' id='headingThree'>
+						<h4 class='panel-title'>
+						<a class='collapsed' href="#exoticpersons" role='button' data-parent='#accordion' data-toggle='collapse' aria-expanded='false' aria-controls='exoticpersons'>Exotic Persons</a>
+						</h4>	
+					</div>
+
+					<div class='panel-collapse collapse' id='exoticpersons' role='tabpanel' aria-labelledby='headingThree'>
+						<div class='panel-body'>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate cum aperiam impedit, explicabo consequatur, ea voluptatibus. </p>
+						</div>	
+					</div>	
+				</div>
+
+			</div>
+
+			</section>		
+		</div>		
+	</div>
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<script src='script.js'></script>
+
+</body>
+</html>

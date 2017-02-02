@@ -130,3 +130,26 @@ Now we need to place the content into divs with a class of tab-pane, a role and 
 <div role='tab-panel' class='tab-pane active' id='exoticpets'>
 
 Inside the div we put the content and difine the one that it's active.
+
+===============================================
+9.4 Crafting collapsible content and accordions
+===============================================
+
+Collapse - create content that appears and disappears when you click on an element. 
+
+1.
+Button that toggles a section of the page on/off
+
+2. 
+A div with a class of collapse and the content inside.
+
+3.
+Create the accordion:
+div with a class of panel-group
+and give a id 
+<div class='panel-group' id='accordion' role='tablist' aria-multiselectable='true'>
+
+Inside a div with a class of panel and a panel-(for color)
+<div class='panel panel-default'>
+
+Then a panel heading and a panel for content

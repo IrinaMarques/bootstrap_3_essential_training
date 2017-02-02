@@ -166,3 +166,40 @@ $(function() {
    $('[data-toggle="tooltip"]').tooltip();
 });
 
+====================
+9.6 Adding a popover
+====================
+
+Popovers are a bit like tool tips and dropdowns. They allow you to show a pop-up overlay, and like popovers they have to be manually activated. So you can use these in either buttons or links and they're going to need different attributes depending on how they are used. 
+
+We have to turn it manually using a script on the project.
+
+===========================================
+9.7 Controlling menus with ScrollFix/Affix
+===========================================
+
+Component called "affix" - make the navigation sticky so that it stays at the top of the screen, even when I scroll past a certain point. This will actually let me control when the navigation appears.
+
+<nav class='navbar navbar-default' data-spy='affix' role='navigation'>
+
+But stays behind all the content so in Css
+.navbar-default {
+   width: 100%;
+   z-index: 100;
+}
+
+data-offset 
+Amout of pixels to the navbar appears. Happens at the top and at the bottom. We can use: 
+data-offset-top
+data-offset-bottom
+
+To know here we are at the navigation
+scroll-spy
+
+<body data-spy='scroll'>
+
+data-offset='50' 
+Activates as soon as is 50px from the top of the page
+
+<body data-spy='scroll' data-target='.navbar-default' data-offset='50'>
+

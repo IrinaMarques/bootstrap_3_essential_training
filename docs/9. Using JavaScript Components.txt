@@ -63,3 +63,49 @@ Carousels are meant to be wide.
 
 Hiding the carousels when your layout is extra small. For that we have a class called hidden=xs that hide the carousel at the extra small size.
 <div class='carousel slide hidden-xs' id='featured'>
+
+===================
+9.2 Creating modals
+===================
+
+Modals are a common design pattern that lets you show some content when the user pushes a button or some other HTML element.
+
+1.
+First we need a trigger, so we create a button.
+
+data-toggle - let JavaScript know that the action that we want to perform with this particular button is going to be to activate a modal.
+
+data-target - is going to identify which modal we want to turn on.
+
+2.
+To create the modal we are going to need a series of tags:
+
+- 1º  
+<div class='modal'>
+with an id equals to the button
+with a tabindex
+with a role
+with an aria
+- 2º
+<div class='modal-dialog>
+with a role
+- 3º
+<div class='modal-content'>
+- 4º
+<div class='modal-header>
+<h3 class='modal-title' id=''>
+<button> - To close the modal
+- 5º
+<div class='modal-body'>
+- 6º
+<div class='modal-footer'>
+
+3.
+Modal have various sizes
+.modal-sm
+.modal-lg
+<div class='modal-dialog modal-lg' role='document'>
+
+4.
+We can also add an animation of fade:
+<div class='modal fade' id='policy' tabindex="-1" role='dialog' aria-labelledby='modalLabel'>

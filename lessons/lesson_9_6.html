@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<!-- Link to my styles after the Bootstrap so styles can override Bootstrap functionality -->
+	<link rel="stylesheet" href="styles.css">
+
+	<title>Bootstrap</title>
+
+</head>
+
+<body>
+
+	<div class="jumbotron">
+		<div class="container">
+			<h1>Bootstrap 3</h1>
+			<h3>Lesson 9.6: Popover</h3>
+		</div> <!-- end container -->
+	</div> <!-- end jumbotron -->
+
+	<div class='content container'>
+		<div class='row'>
+			<section class='col-sm-12'>
+
+			<h3>What we do</h3>
+			
+			<!-- With a Button -->
+			<button type='buttom' class='btn btn-info' data-container='body' data-toggle='popover' data-toggle='bottom' data-title='Exotic Pets' data-content='Ipsam unde nulla magnam hic natus sed sapiente voluptatibus amet id tempore.'>Exotic</button>
+
+			<!-- With an anchor tag -->
+			<a  tabindex='0' role='buttom' class='btn btn-info' data-container='body' data-toggle='popover' data-trigger='focus' data-toggle='bottom' data-title='Exotic Pets' data-content='Ipsam unde nulla magnam hic natus sed sapiente voluptatibus amet id tempore.'>Exotic</a>
+			
+
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa nobis rerum, ab laudantium. Esse architecto vero fugiat nostrum, repudiandae in, quidem consequatur adipisci eum cumque, iusto perferendis corporis tempore sed.</p>
+
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit delectus numquam natus ab, commodi praesentium dolorem necessitatibus nihil ratione provident, expedita minus facilis id, repellat impedit iure quia perspiciatis culpa! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus magnam, aperiam nisi sequi, itaque quidem hic odio quia!</p> 
+
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi impedit sapiente repellat magnam repudiandae tempore possimus magni, aperiam doloribus repellendus iste sunt aut vitae maiores minus, amet dicta ducimus. Odio? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis labore vitae esse voluptatibus officia, impedit tempore eligendi accusamus earum dolore ad ipsum, pariatur voluptate atque iure odit eos at aperiam.</p>
+
+			</section>		
+		</div>		
+	</div>
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<script src='script.js'></script>
+
+</body>
+</html>
